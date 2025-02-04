@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richiesta Cambio Fornitore Luce e Gas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb; /* Colore di sfondo chiaro e accogliente */
+            color: #333;
+        }
+        header {
+            background-color: #0056b3; /* Blu scuro per trasmettere fiducia */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff; /* Sfondo bianco per mettere in evidenza i contenuti */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0056b3; /* Blu per titoli */
+            font-size: 1.8em;
+        }
+        p {
+            color: #666; /* Testo grigio per una lettura confortevole */
+            font-size: 1.1em;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        input:focus, textarea:focus {
+            border-color: #0056b3; /* Colore blu per quando il campo è selezionato */
+            outline: none;
+        }
+        button {
+            background-color: #28a745; /* Verde brillante per azioni positive */
+            color: white;
+            cursor: pointer;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        button:hover {
+            background-color: #218838; /* Verde scuro per hover */
+        }
+        .testimonial {
+            margin-top: 30px;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial h3 {
+            margin: 0;
+            color: #0056b3; /* Blu per le testimonianze */
+        }
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #0056b3; /* Blu scuro anche nel footer per coerenza */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cambio Fornitore Luce e Gas</h1>
+</header>
+
+<div class="container">
+    <h2>Richiedi un cambiamento di fornitore di luce e gas!</h2>
+    <p>Compila il modulo qui sotto per ricevere maggiori informazioni e un'offerta personalizzata per il cambio del tuo fornitore di energia.</p>
+
+    <!-- Modulo di contatto -->
+    <form name="call-center-form" method="POST" data-netlify="true">
+        <label for="name">Nome e Cognome:</label>
+        <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome e cognome" required>
+
+        <label for="phone">Numero di Telefono:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Inserisci il tuo numero di telefono" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci il tuo indirizzo email" required>
+
+        <label for="provider">Attuale Fornitore di Luce e Gas:</label>
+        <input type="text" id="provider" name="provider" placeholder="Inserisci il tuo attuale fornitore" required>
+
+        <label for="message">Altre informazioni o richieste:</label>
+        <textarea id="message" name="message" placeholder="Scrivi qui eventuali dettagli o richieste aggiuntive"></textarea>
+
+        <button type="submit">Invia Richiesta</button>
+    </form>
+
+    <!-- Testimonianze -->
+    <div class="testimonial">
+        <h3>Giovanni R.</h3>
+        <p>"Il servizio è stato rapido ed efficiente. Ho cambiato fornitore di gas senza problemi e risparmio molto di più! Grazie per l'assistenza!"</p>
+    </div>
+    <div class="testimonial">
+        <h3>Maria L.</h3>
+        <p>"Ho trovato la migliore offerta sul mercato grazie a questo servizio. Consigliatissimo!"</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Cambio Fornitore. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
